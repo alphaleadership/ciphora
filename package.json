@@ -25,7 +25,8 @@
     "build:mac": "electron-builder -m",
     "build:lin": "electron-builder -l --x64 --ia32",
     "build:win": "electron-builder -w --x64 --ia32",
-    "release": "np"
+    "release": "np",
+    "lint":"eslint"
   },
   "dependencies": {
     "brake": "^1.0.1",
